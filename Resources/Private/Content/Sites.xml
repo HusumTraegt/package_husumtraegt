@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<site nodeName="husumtraegt">
+		<properties>
+			<name>HusumTraegt</name>
+			<state>1</state>
+			<siteResourcesPackageKey>Michaelsen.HusumTraegt</siteResourcesPackageKey>
+		</properties>
+		<node identifier="" type="TYPO3.Neos:Page" nodeName="homepage" locale="en_EN">
+			<properties>
+				<title>Home</title>
+			</properties>
+		</node>
+	</site>
+</root>
