@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-{namespace typo3=TYPO3\Neos\ViewHelpers}
-{namespace ts=TYPO3\TypoScript\ViewHelpers}
 <html>
 <head>
-	
+
+	<!--
+		{namespace typo3=TYPO3\Neos\ViewHelpers}
+		{namespace ts=TYPO3\TypoScript\ViewHelpers}
+	-->
+	<f:base/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<f:section name="stylesheets">
-		<!-- put your stylesheet inclusions here, they will be included in your website by TypoScript -->
+		<link href="../../../Public/Stylesheets/normalize.css" rel="stylesheet" type="text/css">
+		<link href="../../../Public/Stylesheets/styles.css" rel="stylesheet" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
 	</f:section>
 
 	<f:section name="scripts">

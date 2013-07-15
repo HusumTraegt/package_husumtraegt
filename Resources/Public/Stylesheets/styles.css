@@ -1,0 +1,110 @@
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    margin: 2em auto;
+    width: 450px;
+    text-align: left;
+    color: #333;
+    text-shadow: 0.1em 0.17em 0 #235796;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header h1,
+header h2 {
+    font-size: 2.5em;
+    font-weight: normal;
+    margin-bottom: 0.5em;
+}
+header h2 {
+    font-size: 1.75em;
+}
+nav {
+    background: #eeeeee;
+    padding: 0;
+}
+nav ul {
+    text-align: right;
+    padding: 1.5em;
+    margin-bottom: 0;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.moodimage {
+    overflow: hidden;
+}
+.moodimage img {
+    width: 100%;
+    height: auto;
+}
+.moodimage .bannertext {
+    position: absolute;
+    margin-top: 2em;
+    left: 3em;
+    width: 70%;
+    background: rgba(225,112,75, 0.7);
+    padding: 1em;
+    max-width: 500px;
+    color: #fff;
+}
+.moodimage h2 {
+    margin-top: 0;
+}
+.maincontent {
+    width: 90%;
+    max-width: 450px;
+    margin: 0 auto;
+}
+@media all and (max-width: 600px) {
+    header {
+        font-size: 80%;
+    }
+    .moodimage img {
+        display: none;
+    }
+    .moodimage .bannertext {
+        position: relative;
+        background-color: rgba(225,112,75, 1);
+        padding: 1em 5%;
+        width: 90%;
+        margin: 0;
+        left: 0;
+        max-width: 600px;
+    }
+    nav ul {
+        padding: 0;
+    }
+    nav ul li {
+        display: block;
+        padding: 0;
+        border-bottom: 1px dashed #666;
+    }
+    nav ul li:last-child {
+        border-bottom: 0;
+    }
+    nav a {
+        padding: 1em;
+        display: block;
+    }
+    nav a:hover {
+        text-decoration: none;
+        padding-right: 1.2em;
+    }
+}
+@media all and (max-width: 460px) {
+    header {
+        font-size: 70%;
+    }
+}
