@@ -21,10 +21,16 @@
 </head>
 <body>
 <f:section name="body">
-	<h1>A freshly created template for your new site!</h1>
-	<nav class="menu"><ts:render path="parts.menu" /></nav>
-	<nav class="breadcrumb"><ts:render path="parts.breadcrumb" /></nav>
-	<div class="content"><ts:render path="content.main" /></div>
+	<div class="moodimage">
+		<nav><ts:render path="parts.menu" /></nav>
+		<div class="bannertext">
+			<img class="logo" alt="Logo" src="{f:uri.resource(path: 'Images/logo.svg', package:'Michaelsen.HusumTraegt')}" />
+			<h2>Trageberatung Husum</h2>
+			<p>Ich helfe Ihnen dabei Ihr Baby oder Kind zu tragen. Morbi condimentum, ligula quis cursus cursus, nibh nisl venenatis magna, sit amet aliquam turpis ligula nec elit.</p>
+		</div>
+		<img src="{f:uri.resource(path:'Images/keyvisual.jpg', package:'Michaelsen.HusumTraegt')}" />
+	</div>
+	<div class="maincontent"><ts:render path="content.main" /></div>
 </f:section>
 </body>
 </html>

@@ -4,33 +4,6 @@ body {
     text-align: center;
 }
 
-header {
-    margin: 2em 5%;
-    width: 90%;
-    color: #333;
-    text-shadow: 0.1em 0.17em 0 #235796;
-    font-family: 'Open Sans', sans-serif;
-    overflow: auto;
-    display: none;
-}
-
-header img.logo {
-    width: 10%;
-    display: block;
-    float: left;
-    margin-right: 5%;
-}
-
-header h1,
-header h2 {
-    display: inline-block;
-    font-size: 2.5em;
-    font-weight: normal;
-    margin-bottom: 0.5em;
-}
-header h2 {
-    font-size: 1.75em;
-}
 nav {
     background-color: rgba(238,238,238, 0.95);
     padding: 0;
@@ -107,7 +80,7 @@ nav a:hover {
 }
 @media all and (min-width: 1000px) {
     body {
-        background-image: url(bg.jpg);
+        background-image: url(../Images/bg.jpg);
         background-size: 100% auto;
     }
 }
